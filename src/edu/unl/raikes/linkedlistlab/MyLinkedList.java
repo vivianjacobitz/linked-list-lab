@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.flatironschool.javacs;
+package edu.unl.raikes.linkedlistlab;
 
 import java.util.Arrays;
 import java.util.Collection;

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.flatironschool.javacs;
+package edu.unl.raikes.linkedlistlab;
 
 //import static org.junit.Assert.*;
 import static org.junit.Assert.assertThat;
@@ -40,7 +40,7 @@ public class MyLinkedListTest {
 	}
 
 	/**
-	 * Test method for {@link com.flatironschool.javacs.MyArrayList#MyArrayList()}.
+	 * Test method for {@link edu.unl.raikes.linkedlistlab.MyArrayList#MyArrayList()}.
 	 */
 	@Test
 	public void testMyArrayList() {
@@ -48,7 +48,7 @@ public class MyLinkedListTest {
 	}
 
 	/**
-	 * Test method for {@link com.flatironschool.javacs.MyArrayList#add(java.lang.Object)}.
+	 * Test method for {@link edu.unl.raikes.linkedlistlab.MyArrayList#add(java.lang.Object)}.
 	 */
 	@Test
 	public void testAddT() {
@@ -60,7 +60,7 @@ public class MyLinkedListTest {
 	}
 
 	/**
-	 * Test method for {@link com.flatironschool.javacs.MyArrayList#add(int, java.lang.Object)}.
+	 * Test method for {@link edu.unl.raikes.linkedlistlab.MyArrayList#add(int, java.lang.Object)}.
 	 */
 	@Test
 	public void testAddIntT() {
@@ -89,7 +89,7 @@ public class MyLinkedListTest {
 	}
 
 	/**
-	 * Test method for {@link com.flatironschool.javacs.MyArrayList#addAll(java.util.Collection)}.
+	 * Test method for {@link edu.unl.raikes.linkedlistlab.MyArrayList#addAll(java.util.Collection)}.
 	 */
 	@Test
 	public void testAddAllCollectionOfQextendsT() {
@@ -101,7 +101,7 @@ public class MyLinkedListTest {
 	}
 
 	/**
-	 * Test method for {@link com.flatironschool.javacs.MyArrayList#clear()}.
+	 * Test method for {@link edu.unl.raikes.linkedlistlab.MyArrayList#clear()}.
 	 */
 	@Test
 	public void testClear() {
@@ -110,7 +110,7 @@ public class MyLinkedListTest {
 	}
 
 	/**
-	 * Test method for {@link com.flatironschool.javacs.MyArrayList#contains(java.lang.Object)}.
+	 * Test method for {@link edu.unl.raikes.linkedlistlab.MyArrayList#contains(java.lang.Object)}.
 	 */
 	@Test
 	public void testContains() {
@@ -122,7 +122,7 @@ public class MyLinkedListTest {
 	}
 
 	/**
-	 * Test method for {@link com.flatironschool.javacs.MyArrayList#containsAll(java.util.Collection)}.
+	 * Test method for {@link edu.unl.raikes.linkedlistlab.MyArrayList#containsAll(java.util.Collection)}.
 	 */
 	@Test
 	public void testContainsAll() {
@@ -130,7 +130,7 @@ public class MyLinkedListTest {
 	}
 
 	/**
-	 * Test method for {@link com.flatironschool.javacs.MyArrayList#get(int)}.
+	 * Test method for {@link edu.unl.raikes.linkedlistlab.MyArrayList#get(int)}.
 	 */
 	@Test
 	public void testGet() {
@@ -138,7 +138,7 @@ public class MyLinkedListTest {
 	}
 
 	/**
-	 * Test method for {@link com.flatironschool.javacs.MyArrayList#indexOf(java.lang.Object)}.
+	 * Test method for {@link edu.unl.raikes.linkedlistlab.MyArrayList#indexOf(java.lang.Object)}.
 	 */
 	@Test
 	public void testIndexOf() {
@@ -149,7 +149,7 @@ public class MyLinkedListTest {
 	}
 
 	/**
-	 * Test method for {@link com.flatironschool.javacs.MyArrayList#indexOf(java.lang.Object)}.
+	 * Test method for {@link edu.unl.raikes.linkedlistlab.MyArrayList#indexOf(java.lang.Object)}.
 	 */
 	@Test
 	public void testIndexOfNull() {
@@ -159,7 +159,7 @@ public class MyLinkedListTest {
 	}
 
 	/**
-	 * Test method for {@link com.flatironschool.javacs.MyArrayList#isEmpty()}.
+	 * Test method for {@link edu.unl.raikes.linkedlistlab.MyArrayList#isEmpty()}.
 	 */
 	@Test
 	public void testIsEmpty() {
@@ -169,7 +169,7 @@ public class MyLinkedListTest {
 	}
 
 	/**
-	 * Test method for {@link com.flatironschool.javacs.MyArrayList#iterator()}.
+	 * Test method for {@link edu.unl.raikes.linkedlistlab.MyArrayList#iterator()}.
 	 */
 	@Test
 	public void testIterator() {
@@ -181,7 +181,7 @@ public class MyLinkedListTest {
 	}
 
 	/**
-	 * Test method for {@link com.flatironschool.javacs.MyArrayList#lastIndexOf(java.lang.Object)}.
+	 * Test method for {@link edu.unl.raikes.linkedlistlab.MyArrayList#lastIndexOf(java.lang.Object)}.
 	 */
 	@Test
 	public void testLastIndexOf() {
@@ -190,7 +190,7 @@ public class MyLinkedListTest {
 	}
 
 	/**
-	 * Test method for {@link com.flatironschool.javacs.MyArrayList#remove(java.lang.Object)}.
+	 * Test method for {@link edu.unl.raikes.linkedlistlab.MyArrayList#remove(java.lang.Object)}.
 	 */
 	@Test
 	public void testRemoveObject() {
@@ -219,7 +219,7 @@ public class MyLinkedListTest {
 	}
 
 	/**
-	 * Test method for {@link com.flatironschool.javacs.MyArrayList#remove(int)}.
+	 * Test method for {@link edu.unl.raikes.linkedlistlab.MyArrayList#remove(int)}.
 	 */
 	@Test
 	public void testRemoveInt() {
@@ -230,7 +230,7 @@ public class MyLinkedListTest {
 	}
 
 	/**
-	 * Test method for {@link com.flatironschool.javacs.MyArrayList#removeAll(java.util.Collection)}.
+	 * Test method for {@link edu.unl.raikes.linkedlistlab.MyArrayList#removeAll(java.util.Collection)}.
 	 */
 	@Test
 	public void testRemoveAll() {
@@ -239,7 +239,7 @@ public class MyLinkedListTest {
 	}
 
 	/**
-	 * Test method for {@link com.flatironschool.javacs.MyArrayList#set(int, java.lang.Object)}.
+	 * Test method for {@link edu.unl.raikes.linkedlistlab.MyArrayList#set(int, java.lang.Object)}.
 	 */
 	@Test
 	public void testSet() {
@@ -271,7 +271,7 @@ public class MyLinkedListTest {
 }
 
 	/**
-	 * Test method for {@link com.flatironschool.javacs.MyArrayList#size()}.
+	 * Test method for {@link edu.unl.raikes.linkedlistlab.MyArrayList#size()}.
 	 */
 	@Test
 	public void testSize() {
@@ -279,7 +279,7 @@ public class MyLinkedListTest {
 	}
 
 	/**
-	 * Test method for {@link com.flatironschool.javacs.MyArrayList#subList(int, int)}.
+	 * Test method for {@link edu.unl.raikes.linkedlistlab.MyArrayList#subList(int, int)}.
 	 */
 	@Test
 	public void testSubList() {
@@ -289,7 +289,7 @@ public class MyLinkedListTest {
 	}
 
 	/**
-	 * Test method for {@link com.flatironschool.javacs.MyArrayList#toArray()}.
+	 * Test method for {@link edu.unl.raikes.linkedlistlab.MyArrayList#toArray()}.
 	 */
 	@Test
 	public void testToArray() {

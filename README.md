@@ -1,4 +1,4 @@
-# cs-implementing-a-linkedlist-lab
+# RAIK 184H LINKED LIST LAB
 
 
 ## Objectives
@@ -185,13 +185,13 @@ Now it's your turn:
 *  Last one: fill in both `remove` methods.  One takes the element that should be removed and returns a `boolean`; the other takes the index of the element that should be removed and returns the element.  When you get these working, all tests should pass.
 
 
-*  Once you have your implementation working, compare it to mine, which you can find by checking out the solutions branch of the repo, or [you can read it on GitHub](https://TODO: add_this_later).
+*  Once you have your implementation working (meaning all unit tests are passing), upload a screenshot of your passing tests to Canvas.
 
 
 
 # A note on garbage collection
 
-In `MyArrayList` from the previous lab, the array grows if necessary, but it never shrinks.  The array never gets garbage collected, and the elements don't get garbage collected until the list itself is destroyed.
+In ArrayLists, the array grows if necessary, but it never shrinks.  The array never gets garbage collected, and the elements don't get garbage collected until the list itself is destroyed.
 
 One advantage of the linked list implementation is that it shrinks when elements are removed, and the unused Nodes can get garbage collected immediately.
 
