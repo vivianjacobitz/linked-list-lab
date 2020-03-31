@@ -16,7 +16,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 /**
- * @author downey
+ * @author Downey, Andrew, and Vivian
  *
  */
 public class MyLinkedListTest {
